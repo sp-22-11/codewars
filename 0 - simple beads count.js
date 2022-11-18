@@ -1,9 +1,11 @@
+https://www.codewars.com/kata/58712dfa5c538b6fc7000569/train/javascript
+
 const countRedBeads = n => (n<2) ? 0 : (2*(n-1))
 
 
 
 const countRedBeads2 = n => 2* ( (n || 2) - 1 )
-// using || n an equation!!
+// using || in an equation!!
 
 
 
