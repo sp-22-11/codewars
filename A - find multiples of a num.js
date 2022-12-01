@@ -17,3 +17,15 @@ findMultiples = ( integer, limit ) => {
     return result
   }
 
+
+// try #2   2022 12 01
+
+const findMultiples = (int, lmt) =>
+Array.from( {length: lmt/int}, (_, i) => int * (i+1) )
+// many used parseInt, bitwise OR (^), or Math.floor to make lmt/int an integer
+
+// const findMultiples = (int, lmt) =>
+//     Array.from( {length: parseInt(lmt/int)}, (_, i) => int * (i+1) )
+
+// const findMultiples = (int, lmt) =>
+//     [...Array( lmt/int ^ 0)].map( (_,i) => int * (i+1))
