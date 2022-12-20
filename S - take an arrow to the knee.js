@@ -5,3 +5,4 @@ const ArrowFunc = arr =>
 
 
 console.log(ArrowFunc([84,101,115,116]))
+
