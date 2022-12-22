@@ -4,7 +4,4 @@ const ArrowFunc = arr =>
     arr.map( a => String.fromCharCode(a) ).join('')
 
 
-    console.log(ArrowFunc([84,101,115,116]))
-
-
-
+console.log(ArrowFunc([84,101,115,116]))
